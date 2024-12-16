@@ -149,9 +149,8 @@ class MovieSessionDetailSerializer(MovieSessionSerializer):
             "movie",
             "cinema_hall",
             "taken_places",
-            "image"
         )
-        read_only_fields = ("id", "image")
+        read_only_fields = ("id",)
 
 
 class OrderSerializer(serializers.ModelSerializer):
